@@ -1,3 +1,12 @@
+<?php if (isset($_GET["logout"]) && $_GET["logout"] === 1): ?>
+
+    <div style="position: absolute; left: 0; top: 0; color:white; background: red">
+        <p>Vous vous êtes déconnecter</p>
+    </div>
+<?php else: ?>
+<?php endif; ?>
+
+
 <!DOCTYPE html>
 <html>
   <head>
