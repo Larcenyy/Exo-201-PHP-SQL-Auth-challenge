@@ -7,17 +7,17 @@
   </head>
   <body>
 
-    <form action="" method="post">
+    <form action="check_login.php" method="post">
       <div>
         <label for="username">Identifiant</label>
-        <input type="text" name="username">
+        <input type="text" name="username" required>
       </div>
       <div>
         <label for="password">Mot de passe </label>
-        <input type="password" name="password">
+        <input type="password" name="password" required>
       </div>
       <div>
-        <button type="button" name="button">Se connecter</button>
+          <input type="submit">
       </div>
     </form>
   </body>
